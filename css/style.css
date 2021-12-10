@@ -74,3 +74,32 @@ p {
   padding: 100px 60px;
   vertical-align: middle;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .hero {
+    padding: 70px 20px;
+  }
+
+  .hero h2 {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
