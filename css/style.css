@@ -109,6 +109,28 @@ img {
   font-size: 14px;
 }
 
+nav .logo {
+  font-family: var(--heading-font-family);
+  font-size: 28px;
+}
+
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
@@ -154,5 +176,17 @@ img {
 
   .content p {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+
+  ul {
+    font-size: 14px;
+    display: block;
+    padding: 0;
   }
 }
