@@ -131,6 +131,35 @@ nav li.active a {
   color: var(--primary-color);
 }
 
+section {
+  background: var(--secondary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer section {
+  padding: 30px 10%;
+  border-radius: 20px;
+}
+
+footer h4 {
+  font-size: 48px;
+}
+
+footer .email-link {
+  color: #272142;
+  display: block;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
