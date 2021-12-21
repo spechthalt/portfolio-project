@@ -160,6 +160,14 @@ footer .email-link:hover {
   color: var(--primary-color);
 }
 
+.social-links a {
+  background: var(--secondary-color);
+  color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 56px;
