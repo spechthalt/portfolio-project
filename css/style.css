@@ -162,10 +162,17 @@ footer .email-link:hover {
 
 .social-links a {
   background: var(--secondary-color);
-  color: white;
+  color: var(--primary-color);
+  font-size: 18px;
   margin: 20px;
-  padding: 15px;
+  padding: 15px 18px;
   border-radius: 50%;
+  transition: all 120ms ease-in-out;
+}
+
+.social-links a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
