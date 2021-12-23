@@ -38,7 +38,7 @@ img {
 
 .hero {
   background-color: #f9f7fe;
-  padding: 160px 20px;
+  padding: 110px 20px;
   text-align: center;
 }
 
@@ -144,11 +144,11 @@ footer section {
   border-radius: 20px;
 }
 
-footer h4 {
+footer h3 {
   font-size: 48px;
 }
 
-footer .email-link {
+.primary-link {
   color: #272142;
   display: block;
   font-size: 24px;
@@ -156,14 +156,14 @@ footer .email-link {
   text-align: center;
 }
 
-footer .email-link:hover {
+.primary-link:hover {
   color: var(--primary-color);
 }
 
 .social-links a {
   background: var(--secondary-color);
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 20px;
   margin: 20px;
   padding: 15px 18px;
   border-radius: 50%;
@@ -173,6 +173,12 @@ footer .email-link:hover {
 .social-links a:hover {
   background: var(--primary-color);
   color: var(--secondary-color);
+}
+
+.contact-info {
+  background: var(--secondary-color);
+  border-radius: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 900px) {
