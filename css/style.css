@@ -123,6 +123,14 @@ small {
   color: var(--primary-color);
 }
 
+.resume ul {
+  padding: 0;
+}
+
+.resume li {
+  list-style: none;
+}
+
 nav .logo {
   font-family: var(--heading-font-family);
   font-size: 28px;
