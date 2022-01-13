@@ -115,6 +115,14 @@ small {
   font-size: 14px;
 }
 
+.resume h4 {
+  font-size: 22px;
+}
+
+.resume h3 {
+  color: var(--primary-color);
+}
+
 nav .logo {
   font-family: var(--heading-font-family);
   font-size: 28px;
