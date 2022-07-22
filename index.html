@@ -1,169 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Stephanie Davis is a front-end enginner based in San Diego, CA."
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fd7783c96d.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Home • Stephanie Davis</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <nav class="pt-3 d-flex justify-content-between">
-        <a href="/index.html" class="logo">SD</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Stephanie Davis is a front-end enginner based in San Diego, CA." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/c386dd7b29.js" crossorigin="anonymous"></script>
+  <title>Home • Stephanie Davis</title>
+</head>
 
-        <ul>
-          <li class="active">
-            <a href="/index.html" title="Homepage">Home</a>
-          </li>
-          <li><a href="/about.html" title="About Stephanie">About me</a></li>
-          <li><a href="/work.html" title="Stephanie's work">Work</a></li>
-          <li><a href="/contact.html" title="Contact Stephanie">Contact</a></li>
-        </ul>
-      </nav>
+<body>
+  <div class="container">
+    <nav class="pt-3 d-flex justify-content-between">
+      <a href="/index.html" class="logo">SD</a>
+
+      <ul>
+        <li class="active">
+          <a href="/index.html" title="Homepage">Home</a>
+        </li>
+        <li><a href="/about.html" title="About Stephanie">About me</a></li>
+        <li><a href="/work.html" title="Stephanie's work">Work</a></li>
+        <li><a href="/contact.html" title="Contact Stephanie">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="hero">
+    <p>Hi, I am</p>
+    <h1>Stephanie Davis</h1>
+    <h2 class="mb-5">Front-end developer based in the United States</h2>
+    <div>
+      <a href="/contact.html" class="btn btn-branding">Contact me</a>
     </div>
+  </div>
 
-    <div class="hero">
-      <p>Hi, I am</p>
-      <h1>Stephanie Davis</h1>
-      <h2 class="mb-5">Front-end developer based in the United States</h2>
-      <div>
-        <a href="/contact.html" class="btn btn-branding">Contact me</a>
+  <p class="text-center m-5">View some of my featured projects below!</p>
+
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col d-none d-lg-block">
+        <img src="/images/react-dictionary.png" alt="Landing page project" class="img-fluid" />
+      </div>
+
+      <div class="col">
+        <div class="project-description">
+          <h2 class="mb-5">Dictionary App</h2>
+          <p class="mb-5 text-muted">
+            Coded with React, this project uses API integration, responsive
+            design, and advanced React elements, such as use states and
+            mapping, to create a dictionary app which shows definitions and
+            photos for any word a user searches for.
+          </p>
+          <a href="https://pedantic-swirles-215427.netlify.app/" class="btn btn-branding-outline" target="_blank"
+            title="Lauch landing page project">View project</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-5">
+      <div class="col">
+        <div class="project-description">
+          <h2 class="mb-5">Weather Project</h2>
+          <p class="mb-5 text-muted">
+            The Weather App is a fantastic project which explores the
+            possibilities of CSS and JavaScript. It uses a variety of
+            JavaScript functions to include button functionality, local date
+            and time retrieval and formatting, and current weather and weather
+            forecast API integration.
+          </p>
+          <a href="https://laughing-bohr-51b1bc.netlify.app/" class="btn btn-branding-outline" target="_blank"
+            title="Launch weather project">View project</a>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block">
+        <img src="/images/weather.png" alt="weather project" class="img-fluid" />
       </div>
     </div>
 
-    <p class="text-center m-5">View some of my featured projects below!</p>
-
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/react-dictionary.png"
-            alt="Landing page project"
-            class="img-fluid"
-          />
+    <footer>
+      <section class="d-none justify-content-between d-md-flex mb-5">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Would you like to work together? Reach out for more info
+          </p>
         </div>
-
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dictionary App</h2>
-            <p class="mb-5 text-muted">
-              Coded with React, this project uses API integration, responsive
-              design, and advanced React elements, such as use states and
-              mapping, to create a dictionary app which shows definitions and
-              photos for any word a user searches for.
-            </p>
-            <a
-              href="https://pedantic-swirles-215427.netlify.app/"
-              class="btn btn-branding-outline"
-              target="_blank"
-              title="Lauch landing page project"
-              >View project</a
-            >
-          </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding mt-4" title="Contact me">Contact me</a>
         </div>
+      </section>
+
+      <a href="mailto:srpechthalt@gmail.com" class="primary-link mb-5">srpechthalt@gmail.com</a>
+
+      <div class="social-links text-center">
+        <a href="https://www.instagram.com/stephp.davis/" target="_blank" title="Instagram"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/stephpechthalt/" target="_blank" title="LinkedIn"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/spechthalt" target="_blank" title="Github"><i class="fab fa-github"></i></a>
       </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
-            <p class="mb-5 text-muted">
-              The Weather App is a fantastic project which explores the
-              possibilities of CSS and JavaScript. It uses a variety of
-              JavaScript functions to include button functionality, local date
-              and time retrieval and formatting, and current weather and weather
-              forecast API integration.
-            </p>
-            <a
-              href="https://laughing-bohr-51b1bc.netlify.app/"
-              class="btn btn-branding-outline"
-              target="_blank"
-              title="Launch weather project"
-              >View project</a
-            >
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/weather.png"
-            alt="weather project"
-            class="img-fluid"
-          />
-        </div>
-      </div>
+      <small class="text-muted">✌️ This website was coded by Stephanie Davis and is
+        <a href="https://github.com/spechthalt/portfolio-project">open-sourced</a>
+      </small>
+    </footer>
+  </div>
 
-      <footer>
-        <section class="d-none justify-content-between d-md-flex mb-5">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="text-muted">
-              Would you like to work together? Reach out for more info
-            </p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn btn-branding mt-4"
-              title="Contact me"
-              >Contact me</a
-            >
-          </div>
-        </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
 
-        <a href="mailto:srpechthalt@gmail.com" class="primary-link mb-5"
-          >srpechthalt@gmail.com</a
-        >
-
-        <div class="social-links text-center">
-          <a
-            href="https://www.instagram.com/stephp.davis/"
-            target="_blank"
-            title="Instagram"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/stephpechthalt/"
-            target="_blank"
-            title="LinkedIn"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a href="https://github.com/spechthalt" target="_blank" title="Github"
-            ><i class="fab fa-github"></i
-          ></a>
-        </div>
-        <small class="text-muted"
-          >✌️ This website was coded by Stephanie Davis and is
-          <a href="https://github.com/spechthalt/portfolio-project"
-            >open-sourced</a
-          >
-        </small>
-      </footer>
-    </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>
